@@ -6,3 +6,95 @@ body {
 img {
   display: block;
 }
+
+.first_section {
+  padding: 0 173px;
+  padding-top: 68px;
+  padding-bottom: 160px;
+  border-radius: 70px;
+  background: url("../images/collagen-first-section-bg_xxl-lg.png") 0px 0px/cover no-repeat;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.top_panel {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  margin: auto 0px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.menu_link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.menu-block {
+  display: flex;
+  gap: 42px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu-button {
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+  border: 1px solid #f1eaea;
+  border-radius: 28px;
+  padding: 5px 19px;
+  cursor: pointer;
+}
+
+.telephon {
+  font-size: 19px;
+  margin-top: 12px;
+}
+
+.start__info__title {
+  margin-top: 108px;
+  text-align: left;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 73px;
+}
+
+.bottom__info__desc {
+  margin-top: 32px;
+  width: 348px;
+  line-height: 30px;
+  text-align: start;
+  font-weight: 400;
+  font-size: 19px;
+}
+
+.bottom__buttons {
+  display: flex;
+  gap: 20px;
+  margin-top: 41px;
+}
+
+.first-button {
+  font-weight: 500;
+  font-size: 17px;
+  color: #7899a6;
+  border: 1px solid #f1eaea;
+  border-radius: 28px;
+  padding: 13px 29px;
+  cursor: pointer;
+  background-color: rgb(250, 250, 250);
+}
+
+.second-button {
+  font-weight: 500;
+  font-size: 17px;
+  color: #ffffff;
+  border: 1px solid #f1eaea;
+  border-radius: 28px;
+  padding: 13px 29px;
+  cursor: pointer;
+}
